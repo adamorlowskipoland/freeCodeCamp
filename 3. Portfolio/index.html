@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="favicon.ico">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,900" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+
+  
+<div class="container">
+  
+          <!-- navigation -->
+  
+    <div id="home" class="row text-center">
+        <div class="col-md-6 part menu">
+            <div class="menu__top">
+                <img src="https://s-media-cache-ak0.pinimg.com/originals/81/7d/3c/817d3ccb4c129bf671ca56ff16fe590d.png" alt="pen logo" class="menu__top--img"/>
+            </div>
+            
+            <div class="menu__bottom">
+                <a class="text-uppercase menu__link" href="#"><h4 class="menu__link--name">about</h4></a>
+                <a class="text-uppercase menu__link" href="#work"><h4 class="menu__link--name">portfolio</h4></a>
+                <a class="text-uppercase menu__link" href="#contact"><h4 class="menu__link--name">contact</h4></a>
+            </div>
+        </div>
+            
+        <!--    about me       -->
+    
+        <div class="col-md-6 part about">
+            <div class="about__top">
+                <h2 class="about__top--header text-capitalize">about me</h2>
+                <img src="Buldog.jpg" alt="autor photo" class="img-responsive img-rounded about__top--img" />
+            </div>
+            <div class="about__info">
+                <p class="text-capitalize about__info--par">front-end developer</p>
+                <p class="about__info--par"><span class="text-capitalize">i</span> can make a website for you</p>
+            </div>
+        </div>
+    </div>    
+  
+  
+          <!-- my work portfolio PSD & webpages -->
+
+    <div id="work" class="row text-center">
+        <div class="col-md-6 part quiz">
+            <h2 class="quiz--header"><span class="text-capitalize">do</span> you know how many oceans are on the <span class="text-capitalize">earth</span>?</h2>
+            <div class="row quiz__answers">
+              <button class="btn quiz__answers--btn" id="three"><span class="text-uppercase">3</span></button>
+              <button class="btn quiz__answers--btn" id="five">5</button>
+              <button class="btn quiz__answers--btn" id="seven">7</button>
+            </div>
+            <div class="row">
+                <div class="quiz__result disabled" id="wrong">
+                    <h3><span class="text-capitalize">there</span> are actually 5</h3>
+                    <h3><a class="quiz__result--link" href="https://en.wikipedia.org/wiki/Ocean" target="_blank"><span class="text-capitalize">wiki</span></a></h3>
+                </div>
+                <div class="quiz__result" id="mark">
+                    <h1>?</h1>
+                </div>
+                <div class="quiz__result disabled" id="right">
+                    <h3><span class="text-capitalize">that</span> is correct</h3>
+                    <h3><a href="https://en.wikipedia.org/wiki/Ocean" class="quiz__result--link" target="_blank"><span class="text-capitalize">wiki</span></a></h3>
+                </div>
+            </div>
+        </div>
+    
+        
+        <div class="col-md-6 part web">
+            <h2 class="web--header"><span class="text-capitalize">my</span> work</h2>
+            
+            <div class="row web__gallery">
+                <div class="thumbnail web__gallery__example">
+                    <a href="http://codepen.io/Adam_Orlov/full/yaWakp" target="_blank"><img class="img-responsive web__gallery__example--img" src="https://upload.wikimedia.org/wikipedia/en/e/e5/Howard_thurman.jpg" alt="Tribute Page"></a>
+                    <div class="caption">  
+                        <h4 class="text-capitalize web__gallery__example--header">tribute page.</h4>
+                    </div>
+                </div>
+                <div class="thumbnail web__gallery__example">
+                    <a href="http://codepen.io/Adam_Orlov/full/GNPvyz" target="_blank"><img class="img-responsive web__gallery__example--img" src="http://renderstuff.com/publication-files/0245/big.jpg" alt="2nd"></a>
+                    <div class="caption">  
+                        <h4 class="web__gallery__example--header">X-mas Tree</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row web__gallery">  
+                <div class="thumbnail web__gallery__example">
+                    <a href=""><img class="img-responsive web__gallery__example--img" src="http://lorempixel.com/400/200/sports/onMyWay/" alt="3rd"></a>
+                    <div class="caption">  
+                        <h4 class="web__gallery__example--header">On My Way</h4>
+                    </div>
+                </div>
+                <div class="thumbnail web__gallery__example">
+                    <a href=""><img class="img-responsive web__gallery__example--img" src="http://lorempixel.com/400/200/sports/onMyWay/" alt="4th"></a>
+                    <div class="caption">  
+                        <h4 class="web__gallery__example--header">On My Way</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+          <!--  social icons  -->
+  
+    <div id="contact" class="row text-center">
+    
+    <div class="col-md-6 part social">
+        <h2 class="social--header"><span class="text-capitalize">you</span> can check me out:</h2>
+        <div class="row social__group">
+            <a class="social__group--link" href="https://github.com/adamorlowskipoland" target="_blank"><i class="fa fa-github social__group--icon" aria-hidden="true">
+            </i></a>
+            <a class="social__group--link" href="https://www.freecodecamp.com/adamorlowskipoland" target="_blank"><i class="fa fa-free-code-camp social__group--icon" aria-hidden="true"></i></a>
+            <a class="social__group--link" href="https://www.linkedin.com/in/adam-or%C5%82owski-1b6b8385?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="fa fa-linkedin social__group--icon" aria-hidden="true"></i></a>
+            <a class="social__group--link" href="http://codepen.io/Adam_Orlov/" target="_blank"><i class="fa fa-codepen social__group--icon" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    
+          <!--    form       -->
+    
+        <div class="col-md-6 text-left part contact">
+            <h2 class="contact--header"><span class="text-capitalize">contact</span></h2>
+            <form action="mailto:adamorlowskipoland@icloud.com?subject=New%20inquiry" method="post" enctype="text/plain" class="contact__form">
+                <label class="contact__form--label" for="fname"><span class="text-capitalize">name</span></label>
+                <input class="contact__form--input" type="text" name="fname" id="fname" required/>
+                <label class="contact__form--label" for="subject"><span class="text-capitalize">subject</span></label>
+                <input class="contact__form--input" type="text" name="subject" id="subject" required/>
+                <label class="contact__form--label" for="message"><span class="text-capitalize">message</span></label>
+                <textarea class="contact__form--input form-control" name="message" rows="3" placeholder="Don't forget to leave your e-mail address here" id="message" required></textarea>
+                <button class="contact__form--btn btn btn-primary" type="submit" value="Send"><span class="text-capitalize">send</span></button>
+                <button class="contact__form--btn btn btn-primary" type="reset" value="reset"><span class="text-capitalize"><i class="fa fa-times" aria-hidden="true"></i></span></button>
+            </form>
+        </div>
+    </div>
+
+          <!-- footer -->
+    
+    <div class="row">
+      <footer class="footer text-center">
+          <p class="footer__paragraph"><span class="text-capitalize">written</span> and coded by <a href="https://www.freecodecamp.com/adamorlowskipoland" target="_blank"><span class="text-capitalize">adam orlowski</span></a></p>
+      </footer>
+    </div>
+</div>
+</body>
+</html>
